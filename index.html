@@ -43,54 +43,63 @@
     <div class="titulo">
       <h1>Semana 1</h1>
     </div>
-    <hr>
+    <hr />
     <p>
-      “Este é o resultado do primeiro exercício <br>
-      da primeira semana <br>
-      do curso
-      DEVinHouse.” &#x1F4AA
+      “Este é o resultado do primeiro exercício <br />
+      da primeira semana <br />
+      do curso DEVinHouse.”
     </p>
+    <!-- <p> o h2 é usado pra títulos, não deve estar envolto em <p></p>-->
+    <h2>IA Jogando DINO(Chrome)</h2>
+
+    <p>Seja muito bem vindo ao Universo Programado! <br /></p>
+
     <p>
-      <h2>IA Jogando DINO(Chrome)</h2>
+      Neste vídeo você verá como a Inteligência Artificial aprendeu a jogar o
+      dinossauro da Google! <br />
+      Machine Learning é um ramo da Inteligência Artificial que vem crescendo
+      ano após ano, e junto do Deep Learning, tem realizado feitos incríveis!
     </p>
 
-    <p>Seja muito bem vindo ao Universo Programado! <br>
+    <p>
+      Foi utilizado uma Rede Neural Artificial (Perceptron Multilayer) com 3
+      camadas!
+    </p>
 
-      <p>
-        Neste vídeo você verá como a Inteligência Artificial aprendeu a jogar o dinossauro da Google! <br> Machine Learning é um ramo da Inteligência Artificial que vem crescendo ano após ano, e junto do Deep Learning, tem realizado feitos incríveis!
-      </p> 
-  
-      <p>
-        Foi utilizado uma Rede Neural Artificial (Perceptron Multilayer) com 3 camadas!
-      </p>
-      
-      <p>Camada de Entrada com 6 sensores + 1 Viés, totalizando 7 Neurônios <br>
-      Camada Escondida com 6 neurônios + 1 Viés, totalizando 7 Neurônios <br>
-      Camada de Saída com 3 neurônios (Pular, Abaixar, Avião) 
-      </p>
-      
-      <p>A função de ativação utilizada em todos os neurônios foi a ReLU. <br>
-      O método de aprendizagem é comumente chamado de ''Random Mutations". <br>
-      O tamanho da população que utilizei variou entre 1000 ~ 5000 indivíduos. <br>
-      O tempo de aprendizagem variou entre 15 ~ 60 minutos por modo de Jogo. <br>
+    <p>
+      Camada de Entrada com 6 sensores + 1 Viés, totalizando 7 Neurônios <br />
+      Camada Escondida com 6 neurônios + 1 Viés, totalizando 7 Neurônios <br />
+      Camada de Saída com 3 neurônios (Pular, Abaixar, Avião)
+    </p>
+
+    <p>
+      A função de ativação utilizada em todos os neurônios foi a ReLU. <br />
+      O método de aprendizagem é comumente chamado de ''Random Mutations".
+      <br />
+      O tamanho da população que utilizei variou entre 1000 ~ 5000 indivíduos.
+      <br />
+      O tempo de aprendizagem variou entre 15 ~ 60 minutos por modo de Jogo.
+      <br />
       A linguagem utilizada em todo o processo foi a Linguagem C.
-      </p>
     </p>
-    
-    <iframe width="500em" height="250em" 
-      src="https://www.youtube.com/embed/NZlIYr1slAk" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen> 
+    <!-- o <p> não encapsula outras marcações como a <div> faz. Quando tu abrires uma nova tag sem fechar a tag <p>, o interpretador vai entender que o <p> foi fechado, então essa tag de fechamento aqui não é necessária </p> -->
+
+    <iframe
+      width="500em"
+      height="250em"
+      src="https://www.youtube.com/embed/NZlIYr1slAk"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
     </iframe>
     <p></p>
-    
+
     <a href="imagens.html"><button id="btn"></button></a>
-      
-    </div>
-    <footer>
-      &copy;Desenvolvido por Alanderson Santana da Silva
-    </footer>
+
+    <!-- </div> isso aqui tava perdido, sem uma div aberta antes -->
+    <div id="espaco-footer"></div>
+    <footer>&copy;Desenvolvido por Alanderson Santana da Silva</footer>
 
     <script src="app.js"></script>
   </body>
